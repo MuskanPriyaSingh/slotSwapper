@@ -87,10 +87,10 @@ Now open your browser and go to:
 
 ## 🧠 Design Choices
 
-- WT Authentication: Chosen for secure stateless login sessions.
-- Axios with Credentials: To handle cookies and maintain login sessions seamlessly.
-- Protected Routes: Users must be logged in to access Dashboard, Marketplace, or Requests.
-- Conditional Navbar: Navbar appears only after login on selected routes.
+- **WT Authentication**: Chosen for secure stateless login sessions.
+- **Axios with Credentials**: To handle cookies and maintain login sessions seamlessly.
+- **Protected Routes**: Users must be logged in to access Dashboard, Marketplace, or Requests.
+- **Conditional Navbar**: Navbar appears only after login on selected routes.
 
 ## Challenges Faced
 
@@ -101,13 +101,9 @@ Now open your browser and go to:
 
 ## ☁️ Deployment
 
-<<<<<<< HEAD
-- Frontend: [Vercel](https://slot-swapper-gamma-taupe.vercel.app)
-- Backend: [Render](https://slotswapper-m6h4.onrender.com)
-=======
-Frontend: [Vercel](https://slot-swapper-gamma-taupe.vercel.app)
-Backend: [Render](https://slotswapper-m6h4.onrender.com)
->>>>>>> 5ff5779e4e3baf954c6e720e08f1ad22e8d49db2
+- **Frontend**: [Vercel](https://slot-swapper-gamma-taupe.vercel.app)
+- **Backend**: [Render](https://slotswapper-m6h4.onrender.com)
+
 
 ## 👩 Author
 
