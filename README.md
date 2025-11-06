@@ -101,8 +101,13 @@ Now open your browser and go to:
 
 ## ☁️ Deployment
 
+<<<<<<< HEAD
 - Frontend: [Vercel](https://slot-swapper-gamma-taupe.vercel.app)
 - Backend: [Render](https://slotswapper-m6h4.onrender.com)
+=======
+Frontend: [Vercel](https://slot-swapper-gamma-taupe.vercel.app)
+Backend: [Render](https://slotswapper-m6h4.onrender.com)
+>>>>>>> 5ff5779e4e3baf954c6e720e08f1ad22e8d49db2
 
 ## 👩 Author
 
