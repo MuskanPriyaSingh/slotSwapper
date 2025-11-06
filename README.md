@@ -1,8 +1,8 @@
-# SlotSwapper 🎯  
+# SlotSwapper   
 
 SlotSwapper is a web-based platform that allows users to **create, manage, and swap event slots** with others. It provides a secure and user-friendly interface for event organizers and participants to manage their schedules effectively.  
 
-## 🚀 Overview  
+## 🚀Project Overview  
 
 This project consists of:  
 - **Frontend:** React.js (Vite) for a responsive and modern user interface.  
@@ -17,6 +17,19 @@ This project consists of:
 - Send and manage **Swap Requests** with other users  
 - Responsive Navbar (appears only on Dashboard, Marketplace, and Requests pages)  
 - Toast notifications for success/error messages  
+
+---
+
+## 📸 Project Screenshots
+
+### 🏠 Dashboard Page
+![Dashboard Screenshot](./screenshots/dashboard.png)
+
+### 🔄 Swap Requests Page
+![Requests Screenshot](./screenshots/requests.png)
+
+### 🛒 Marketplace Page
+![Marketplace Screenshot](./screenshots/marketplace.png)
 
 ---
 
@@ -85,19 +98,33 @@ Now open your browser and go to:
 | GET        |  /swaps/                            |   Fetch all swap requests              |
 | PUT        |  /swaps/respond/:requestId          |   Respond to a request (accept/reject) |
 
+## Example Swap Request Flow
+
+1. User A sends a swap request to User B for a specific slot.
+2. User B views the request on the Requests Page.
+3. User B can Accept or Reject the request.
+4. On Accept, both slots’ owners are swapped, and their status becomes BUSY.
+5. On Reject, the status reverts to SWAPPABLE.
+
 ## 🧠 Design Choices
 
-- **WT Authentication**: Chosen for secure stateless login sessions.
+- **JWT Authentication**: Chosen for secure stateless login sessions.
 - **Axios with Credentials**: To handle cookies and maintain login sessions seamlessly.
 - **Protected Routes**: Users must be logged in to access Dashboard, Marketplace, or Requests.
 - **Conditional Navbar**: Navbar appears only after login on selected routes.
 
-## Challenges Faced
+## ⚠️ Challenges Faced
 
 - Integrating authentication across frontend and backend using cookies.
 - Managing conditional rendering for Navbar visibility.
 - Handling real-time updates for event and swap request status.
 - Ensuring responsive design across all devices.
+
+## 💻 Tech Stack
+
+- **Frontend**: React.js, Tailwind CSS, Axios
+- **Backend**: Node.js, Express.js, MongoDB
+- **Hosting**: Vercel (Frontend), Render (Backend)
 
 ## ☁️ Deployment
 
@@ -105,6 +132,6 @@ Now open your browser and go to:
 - **Backend**: [Render](https://slotswapper-m6h4.onrender.com)
 
 
-## 👩 Author
+## 👨‍💻 Author
 
 Muskan Priya
