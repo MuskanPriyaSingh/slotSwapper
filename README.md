@@ -59,10 +59,10 @@ npm install
 
 Create a .env file in the backend directory with the following:
 ```
-PORT=5000
+PORT=any_port_number_for_localhost
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
-FRONTEND_URL=http://localhost:5173
+FRONTEND_URL=https://your-frontend.vercel.app
 ```
 
 ### 4. Run the Project
@@ -84,19 +84,19 @@ Now open your browser and go to:
 
 ## 🌐 API Endpoints
 
-| Method     |	      Endpoint                     |        Description                     |
-|------------|-------------------------------------|----------------------------------------|
-| POST       |  /user/signup                       |   Register a new user                  |
-| POST       |  /user/login                        |   Authenticate and login user          |
-| GET        |  /events/                           |   Fetch all created events             |
-| GET        |  /events/:id                        |   Fetch an event                       |
-| POST       |  /events/                           |   Create a new event                   |
-| PUT        |  /events/:id                        |   Update an event                      |
-| DELETE     |  /events/:id                        |   Delete an event                      |
-| GET        |  /swaps/swappable-slots             |   Fetch all swappable event slots      |
-| POST       |  /swaps/request                     |   Create a slot swap request           |
-| GET        |  /swaps/                            |   Fetch all swap requests              |
-| PUT        |  /swaps/respond/:requestId          |   Respond to a request (accept/reject) |
+| Method     |	      Endpoint                         |        Description                     |
+|------------|-----------------------------------------|----------------------------------------|
+| POST       |  /api/user/signup                       |   Register a new user                  |
+| POST       |  /api/user/login                        |   Authenticate and login user          |
+| GET        |  /api/events/                           |   Fetch all created events             |
+| GET        |  /api/events/:id                        |   Fetch an event                       |
+| POST       |  /api/events/                           |   Create a new event                   |
+| PUT        |  /api/events/:id                        |   Update an event                      |
+| DELETE     |  /api/events/:id                        |   Delete an event                      |
+| GET        |  /api/swaps/swappable-slots             |   Fetch all swappable event slots      |
+| POST       |  /api/swaps/request                     |   Create a slot swap request           |
+| GET        |  /api/swaps/                            |   Fetch all swap requests              |
+| PUT        |  /api/swaps/respond/:requestId          |   Respond to a request (accept/reject) |
 
 ## Example Swap Request Flow
 
@@ -135,3 +135,5 @@ Now open your browser and go to:
 ## 👨‍💻 Author
 
 Muskan Priya
+
+🌐 Live Project: https://slot-swapper-gamma-taupe.vercel.app/
